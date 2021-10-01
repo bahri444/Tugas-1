@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form2.css">
+    <title>Form daftar</title>
+</head>
+<body>
+    <div class="form2">
+        <br>
+        <h1>Form Daftar</h1>
+        <form action="">
+            <table style="margin: auto;">
+                <tr>
+                    <td>Name</td>
+                    <td>: <input type="text" name="nama" placeholder="masukkan nama lengkap"></td>
+                </tr>
+                <tr>
+                    <td>Adress</td>
+                    <td>: <input type="text" name="alamat" placeholder="masukkan alamat"></td>
+                </tr>
+                <tr>
+                    <td>Pendidikan</td>
+                    <td>: <select name="pend" id="pend" style="width: 87%;">
+                        <option value="">SD</option>
+                        <option value="">SMP</option>
+                        <option value="">SMK/sederajat</option>
+                        <option value="">S1</option>
+                        <option value="">S2</option>
+                        <option value="">S3</option>
+                        <option value="">Tidak</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td>: <input type="password" id="password" name="username" placeholder="masukkan kata sandi"></td>
+                </tr>
+                <tr>
+                    <td>Password rev.</td>
+                    <td>: <input type="password" id="password" name="username" placeholder="masukkan ulang kata sandi"></td>
+                </tr>
+                <tr>
+                    <td>Pilih Jenis-Kelamin</td>
+                    <td>:<input type="radio" name="jeniskelamin"> Laki-laki</td>
+                    <td><input type="radio" name="jeniskelamin"> Perempuan</td>
+                </tr>
+                <tr>
+                    <td>Your Hobyes</td>
+                    <td>:<input type="checkbox" name="hoby" style="width: 30px;">Belajar</td>
+                    <td><input type="checkbox" name="hoby" style="width: 30px;">Bermain</td>
+                    <td><input type="checkbox" name="hoby" style="width: 30px;">Olahraga</td>
+                    <td><input type="checkbox" name="hoby" style="width: 30px;">Rebahan</td>
+                    <td><input type="checkbox" name="hoby" style="width: 30px;">Sastra</td>
+                    <td><input type="checkbox" name="hoby" style="width: 30px;">Seni</td>
+                </tr>
+                <tr>
+                    <td>Komentar</td>
+                    <td>:<textarea name="hoby" id="hoby" cols="23" rows="1.5"></textarea></td>
+                </tr>
+        </table>
+        <br>
+        <div class="tombol">
+            <a href="index.html">Back</a>
+            <button type="submit">Save</button>
+        </div>
+        </form>
+    </div>
+</body>
+</html>

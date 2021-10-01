@@ -1,0 +1,60 @@
+body {
+  padding: 0;
+  background-color: #039be5;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans";
+  color: #000000;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+ul {
+  list-style-type: square;
+  color: #000000;
+}
+.data1 {
+  display: flex;
+  justify-content: space-around;
+}
+.foto img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: solid #212121;
+}
+.data2,
+.data3,
+.data4 {
+  width: 300px;
+  height: 100px;
+  margin: auto;
+}
+.share {
+  width: 400px;
+  height: 50px;
+  list-style-type: none;
+  justify-content: space-around;
+  display: flex;
+  margin: auto;
+  margin-bottom: 5px;
+}
+.log1,
+.log2,
+.log3,
+.log4 {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+img {
+  width: 50px;
+  height: 50px;
+}
+a {
+  color: #d50000;
+  text-decoration: none;
+}
